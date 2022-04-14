@@ -20,6 +20,8 @@ public class LoginPage {
     private By registerLink = By.linkText("Register");
     private By loginErrorMsg = By.cssSelector("div.alert.alert-danger.alert-dismissible");
 
+    private By MyDemo= By.linkText("My Repo");
+
     //1.Initialize the driver
 
     public LoginPage(WebDriver driver) {
