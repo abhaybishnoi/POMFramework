@@ -19,7 +19,7 @@ public class LoginPage {
     private By forgotPwd = By.linkText("Forgotten Password");
     private By registerLink = By.linkText("Register");
     private By loginErrorMsg = By.cssSelector("div.alert.alert-danger.alert-dismissible");
-    
+
     //1.Initialize the driver
 
     public LoginPage(WebDriver driver) {
