@@ -19,8 +19,6 @@ public class LoginPage {
     private By forgotPwd = By.linkText("Forgotten Password");
     private By registerLink = By.linkText("Register");
     private By loginErrorMsg = By.cssSelector("div.alert.alert-danger.alert-dismissible");
-
-    private By logout = By.linkText("logout");
     
     //1.Initialize the driver
 
